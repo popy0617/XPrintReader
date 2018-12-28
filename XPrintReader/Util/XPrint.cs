@@ -24,6 +24,7 @@ namespace XPrintReader.Util
         private int pheight;
         private int LineNum;
         private XBlockInfo BlockInfo;
+        private XBlockInfo BlockString;
         private string FileName;
         private string RptDir;
         private int preview;

@@ -21,6 +21,7 @@ namespace XPrintReader.Util
         private string _xmargin;
         private string _ymargin;
         private string _name;
+        private string _textname;
         /// <summary>
         /// 樣式
         /// </summary>
@@ -125,7 +126,14 @@ namespace XPrintReader.Util
             get { return _name; }
             internal set { _name = value; }
         }
-
+        /// <summary>
+        /// 文字值 在block label為固定文字值，在block info為欄位名稱
+        /// </summary>
+        public string TextValue
+        {
+            get { return _textname; }
+            internal set { _textname = value; }
+        }
         public XBlockInfo()
         {
 
