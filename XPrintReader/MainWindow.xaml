@@ -1,0 +1,13 @@
+﻿<Window x:Class="XPrintReader.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:XPrintReader"
+        mc:Ignorable="d"
+        Title="MainForm" Height="350" Width="525">
+    <Grid>
+        <Button Content="關閉" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Height="23" RenderTransformOrigin="-1.419,-3.36" Click="Close_Click"/>
+
+    </Grid>
+</Window>
